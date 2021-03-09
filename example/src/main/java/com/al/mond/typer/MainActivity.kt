@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         val reverse = findViewById<View>(R.id.reverse)
         val stop = findViewById<View>(R.id.stop)
 
-        input.setText("한글을 이렇게 입력하고 Typer.typing()를 호출하면...")
+        input.setText("해야 솟아라, 말갛게 씻은 얼굴 고운 해야 솟아라")
 
         play.setOnClickListener {
             Typer.typing(output, input.text.toString(), useCursor.isChecked){
