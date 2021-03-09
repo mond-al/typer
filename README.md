@@ -1,6 +1,6 @@
 # typer
-안드로이드 TextView에 텍스트를 타이핑하는 것처럼 순차적으로 첫가끝(자음모음)입력을 지원합니다.
-한글을 [첫가끝](https://pat.im/1176)으로 분해하여 타이핑하는 것처럼 입력합니다. 아직은 두벌식을 사용할때 처럼 [도깨비불현상](https://namu.wiki/w/%EB%8F%84%EA%B9%A8%EB%B9%84%EB%B6%88%20%ED%98%84%EC%83%81)을 구현하지는 못했습니다.
+텍스트뷰에 한글을 [첫가끝](https://pat.im/1176)으로 분해하여 타이핑하는 것처럼 입력합니다.
+두벌식을 사용할때 처럼 [도깨비불현상](https://namu.wiki/w/%EB%8F%84%EA%B9%A8%EB%B9%84%EB%B6%88%20%ED%98%84%EC%83%81)은 구현중입니다.
 
 ### typer로 할 수 있는 동작들
 예제1. 커서없이_쓰기:  
@@ -11,7 +11,6 @@
 
 예제3. 커서보이게_지우기  
 ![예제3_커서보이게_지우기](https://github.com/mond-al/typer/blob/main/demo3.gif?raw=true)
-
 
 ```kotlin
 Typer.typing(textView, "타이핑할 문자열", useCursor){
