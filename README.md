@@ -7,8 +7,12 @@
 ![예제1_커서보이게_지우기](https://github.com/mond-al/typer/blob/main/demo3.gif?raw=true)
 
 
-첫 배포. 아직은 아주 간단한 수준의 타이핑 효과를 줄수 있습니다. 
-Todo : 데이터 최적화, 도깨비불현상구현, 구간 지우고 다시 쓰기 
+첫 배포. 아직은 아주 간단한 수준의 타이핑 효과를 줄수 있습니다.   
+
+### Todo : 
+1. 데이터 최적화
+2. 도깨비불현상구현
+3. 구간 지우고 다시 쓰기 
 
 # DEMO
 <img src="https://github.com/mond-al/typer/blob/main/demo.gif?raw=true" width="50%">
